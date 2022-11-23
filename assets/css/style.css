@@ -34,7 +34,8 @@ header {
 #logo img {
     border-radius: 50%;
     height: 100px;
-    width: auto;
+    width: 100px;
+    padding: 10px;
 }
 
 nav {
@@ -48,9 +49,10 @@ nav {
     padding: 2rem 0;
 }
 
-nav ul{
+ul{
 	list-style-type: none;
     margin: 0;
+    padding: 0;
 }
 
 li {
@@ -58,10 +60,10 @@ li {
 }
 
 ul li {
-	padding: 5px 10px;
+	padding: 5px 9px;
 }
 
-nav ul li a {
+a {
     text-decoration: none;
 }
 
@@ -73,7 +75,8 @@ a:hover {
 
 .home {
     position: relative;
-    height: 400px;
+    height: 350px;
+    background: linear-gradient(white, lightcyan);
 }
 
 .intro {
@@ -81,4 +84,8 @@ a:hover {
     font-size: 35px;
     color: black;
     text-align: center;
+}
+
+.intro h2 {
+    padding-top: 3.5rem;
 }
