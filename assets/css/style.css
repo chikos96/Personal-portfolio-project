@@ -14,20 +14,16 @@ body {
 
 h1,
 h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
 }
 /* Header */
 header {
-    position: fixed;
     background-color: lightblue;
     top: 0;
-    height: 80px;
+    height: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    z-index: 7;
-    opacity: 1;
+    justify-content: center;
 }
 
 #logo {
@@ -51,27 +47,31 @@ nav ul{
 }
 
 li {
-	display: inline-block;
+	display: inline-flex;
 }
 
 ul li {
 	padding: 5px 10px;
 }
 
+nav ul li a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffff;
+}
+
 /* Home */
 
 .home {
-    align-items: center;
-    display: flex;
-}  
-
-.intro {
-    margin: 0 auto;
-    padding: 0 auto;
+    position: relative;
+    height: 400px;
 }
 
-.intro h2 {
+.intro {
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 35px;
     color: black;
+    text-align: center;
 }
