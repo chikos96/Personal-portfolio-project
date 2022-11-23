@@ -29,6 +29,7 @@ header {
 #logo {
     margin-right: auto;
     font-size: 25px;
+    padding: 1.6rem;
 }
 
 nav {
@@ -39,6 +40,7 @@ nav {
     font-weight: 100;
     justify-content: center;
     margin-left: auto;
+    padding: 2rem 0;
 }
 
 nav ul{
