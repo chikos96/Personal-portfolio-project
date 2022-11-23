@@ -15,6 +15,7 @@ body {
 h1,
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
 }
 /* Header */
 header {
@@ -55,4 +56,22 @@ li {
 
 ul li {
 	padding: 5px 10px;
+}
+
+/* Home */
+
+.home {
+    align-items: center;
+    display: flex;
+}  
+
+.intro {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.intro h2 {
+    text-decoration: underline;
+    font-size: 30px;
+    color: black;
 }
