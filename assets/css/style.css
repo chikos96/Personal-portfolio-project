@@ -29,7 +29,12 @@ header {
 #logo {
     margin-right: auto;
     font-size: 25px;
-    padding: 1.6rem;
+}
+
+#logo img {
+    border-radius: 50%;
+    height: 100px;
+    width: auto;
 }
 
 nav {
