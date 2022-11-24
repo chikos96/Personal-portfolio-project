@@ -140,3 +140,24 @@ details {
 .project .description {
     font-size: 20px;
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 30px;
+      background-color: beige;
+    }
+    nav {
+        display: flex;
+    }
+    .home {
+        background: lightblue;
+    }
+    #logo img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+  }
