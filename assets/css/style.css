@@ -112,7 +112,6 @@ h2 p {
 
 .skills {
     font-size: 1.75em;
-    margin-left: 350px;
 }
 
 /* Project */
@@ -143,21 +142,32 @@ details {
 
 /* Media Query */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {¨
+    header {
+        background-color: lightblue;
+        top: 0;
+        height: 100px;
+        width: 100%;
+        display: inline;
+        justify-content: center;
+    }
     body {
-      font-size: 30px;
+      font-size: 20px;
       background-color: beige;
     }
-    nav {
-        display: flex;
+    nav ul {
+        height: 180px;
     }
-    .home {
-        background: lightblue;
+    .about {
+        text-align: center;
+        padding-top: 3em;
     }
-    #logo img {
-        border-radius: 50%;
-        height: 100px;
-        width: 100px;
-        padding: 10px;
+    .intro {
+        text-decoration: underline;
+        font-size: 20px;
+        color: black;
+    }
+    .intro h2 {
+        padding-top: 1.50rem;
     }
   }
