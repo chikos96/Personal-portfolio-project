@@ -114,3 +114,29 @@ h2 p {
     font-size: 1.75em;
     margin-left: 350px;
 }
+
+/* Project */
+
+details {
+    cursor: pointer;
+}
+
+.portfolio {
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 39px;
+    text-decoration: underline;
+}
+
+.project img{
+    width: 70%;
+    height: 100%;
+}
+
+.project .title h3{
+    display: inline;
+}
+
+.project .description {
+    font-size: 20px;
+}
