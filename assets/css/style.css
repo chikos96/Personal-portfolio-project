@@ -97,11 +97,11 @@ a:hover {
 }
 
 .about h2 {
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 .about p {
-    font-size: 1.72em;
+    font-size: 1.62em;
 }
 
 h2 p {
@@ -111,14 +111,6 @@ h2 p {
 /* skills */
 
 .skills {
-    background-color: rgb(163, 241, 241);
-}
-
-.skills h2 {
-    font-size: 2em;
-}
-
-.skills ul{
-    font-size: 1.4em;
-    display: list-item;
+    font-size: 1.75em;
+    margin-left: 350px;
 }
