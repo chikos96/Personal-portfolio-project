@@ -107,3 +107,18 @@ a:hover {
 h2 p {
     font-family: 'DM Serif Display', serif;
 }
+
+/* skills */
+
+.skills {
+    background-color: rgb(163, 241, 241);
+}
+
+.skills h2 {
+    font-size: 2em;
+}
+
+.skills ul{
+    font-size: 1.4em;
+    display: list-item;
+}
